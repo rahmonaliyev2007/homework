@@ -9,86 +9,64 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div>
-                <h1>Enter site Title</h1>
-                <h4>Enter site slogan</h4>
-            </div>
-        </header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Contact</li>
-                <li>New Page 1</li>
-                <li>New Page 2</li>
-                <li>New Page 3</li>
-                <li>New Page 4</li>
+    <nav>
+        <div class="container">
+            <ul id="location">
+                <li>
+                    Topshirish Punktlari
+                </li>
             </ul>
-        </nav>
-        <main>
-            <div class="left">
-                <div>
-                    <h2>Main Menu</h2>
-                    <ul>
-                        <li>Menu Item 1</li>
-                        <li>Menu Item 2</li>
-                        <li>Menu Item 3</li>
-                        <li>Menu Item 4</li>
-                        <li>Menu Item 5</li>
-                        <li>Menu Item 6</li>
-                        <li>Menu Item 7</li>
-                        <li>Menu Item 8</li>
-                        <li>Menu Item 9</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Block</h2>
-                    <p class="b">Enter Block content here...</p>
-                    <p> Laudantium accusamus cumque autem eaque maiores exercitationem, quae ipsam repellat. Molestias,
-                        placeat dolores</p>
-                </div>
-            </div>
-            <div class="right">
-                <div>
-                    <h2>Gallery</h2>
-                    <hr>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit repellat voluptatibus, hic eius maxime
-                        alias sit, exercitationem et consequatur nihil! Neque nostrum, ipsam maiores officiis atque
-                        exercitationem aperiam animi ratione quia, maxime quaerat quae asperiores id vel harum tempore,
-                        nam excepturi ullam. Numquam velit architecto, vitae quod cumque impedit. Eveniet dignissimos
-                        explicabo voluptates odio sit enim aliqu laborum, vel consectetur suscipit odit velit eum vitae?
-                        Debitis expedita architecto omnis eaque, explicabo ex ducimus impedit itaque tempore, dolores
-                        suscipit perferendis eius odio illo fuga repellat! Impedit consequatur vel, deserunt dicta,
-                        minus pariatur debitis exercitationem libero doloribus unde veniam illum explicabo labore. Id
-                        dolorum corrupti optio rerum qui, illo totam modi velit natus, aperiam necessitatibus,
-                        distinctio quaerat ad! Aut, quibusdam. Repellendus laudantium tempora id quo?</p>
-                </div>
-                <div class="right-bottom">
+            <ul>
+                <li>
                     <div>
-                        <h2>Subscription</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae asperiores quisquam
-                            mollitia! Voluptatum sed deleniti eos. Facere quis laborum labore cum. Neque voluptas,
-                            nostrum sit voluptates architecto voluptatibus dignissimos deserunt.</p>
-                        <button>Read More</button>
+                        <a href="#">Sotuvchi bo'lish</a><span></span>
+                        <a href="#">Topshirish punktini ochish</a>
                     </div>
-                    <div class="right-br">
-                        <h2>Other Services</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae asperiores quisquam
-                            mollitia! Voluptatum sed deleniti eos. Facere quis laborum labore cum. Neque voluptas,
-                            nostrum sit voluptates architecto voluptatibus dignissimos deserunt.</p>
-                        <button>Read More</button>
-                    </div>
-                </div>
+                </li>
+                <li><a href="#">Savol-JAvob</a></li>
+                <li><a href="#">Buyurtmalarim</a></li>
+                <li id="lang"></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="logo"></div>
+            <div class="searchBar">
+                <button>Katalog</button>
+                <input type="text" placeholder="Mahsulotlar va turkumlar izlash">
+                <button class="searchBtn"></button>
             </div>
-        </main>
-        <hr class="fhr">
-        <footer>
-            <p>Copyright all right reserved 2014</p>
-        </footer>
+            <div class="actions">
+                <div class="signInBtn"></div>
+                <div class="wishlistBtn"></div>
+                <div class="cartBtn"></div>
+            </div>
+        </div>
+        <ul class="container header-links"></ul>
+    </header>
+    <div class="container">
 
+        <!-- hero -->
+
+        <div>
+            <div class="hero">
+            <button class="leftBtn"></button>
+            <img src="https://images.uzum.uz/d0m3a1a7s4fo7mqa2i5g/main_page_banner.jpg" alt="hero ">
+            <button class="rightBtn"></button>
+        </div>
+        <div class="hero-links">
+            <a href="#"><img src="https://static.uzum.uz/static/promo_images/756b6f56-9d2d-414c-a9d3-37d40d1c808b" alt="image"><span>Onalar va bolalar uchun</span></a>
+            <a href="#"><img src="https://static.uzum.uz/static/promo_images/a266cae1-db3a-4b40-a984-cf9220d9b2e8" alt="image"><span>Arzon narxlar kafolati</span></a>
+            <a href="#"><img src="https://static.uzum.uz/static/promo_images/bd2c8d3a-7488-4b12-84f8-0a816bc4a359" alt="image"><span>Zamonaviy Bozor</span></a>
+            <a href="#"><img src="https://static.uzum.uz/static/promo_images/a98e3eef-162f-47b1-b8d8-f6253393bd95" alt="image"><span>Hafta tovarlari</span></a>
+        </div>
+        </div>
+        <main id="root"></main>
+        <footer></footer>
     </div>
 
+    <script type="module" src="./main.js"></script>
 </body>
 
 </html>
