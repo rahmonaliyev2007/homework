@@ -4,69 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1-oy 3-dars HTML</title>
-    <link rel="stylesheet" href="./main.css">
+    <title>6-dars</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <nav>
-        <div class="container">
-            <ul id="location">
-                <li>
-                    Topshirish Punktlari
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div>
-                        <a href="#">Sotuvchi bo'lish</a><span></span>
-                        <a href="#">Topshirish punktini ochish</a>
-                    </div>
-                </li>
-                <li><a href="#">Savol-JAvob</a></li>
-                <li><a href="#">Buyurtmalarim</a></li>
-                <li id="lang"></li>
-            </ul>
-        </div>
-    </nav>
-    <header>
-        <div class="container">
-            <div class="logo"></div>
-            <div class="searchBar">
-                <button>Katalog</button>
-                <input type="text" placeholder="Mahsulotlar va turkumlar izlash">
-                <button class="searchBtn"></button>
-            </div>
-            <div class="actions">
-                <div class="signInBtn"></div>
-                <div class="wishlistBtn"></div>
-                <div class="cartBtn"></div>
-            </div>
-        </div>
-        <ul class="container header-links"></ul>
-    </header>
+    <!-- <div>
+        <header class="b">Header</header>
+        <nav class="b">Nav</nav>
+        <aside class="b">Aside</aside>
+        <section class="b">Section</section>
+        <main class="b">Main</main>
+        <footer class="b">Footer</footer>
+    </div> -->
     <div class="container">
-
-        <!-- hero -->
-
-        <div>
-            <div class="hero">
-            <button class="leftBtn"></button>
-            <img src="https://images.uzum.uz/d0m3a1a7s4fo7mqa2i5g/main_page_banner.jpg" alt="hero ">
-            <button class="rightBtn"></button>
-        </div>
-        <div class="hero-links">
-            <a href="#"><img src="https://static.uzum.uz/static/promo_images/756b6f56-9d2d-414c-a9d3-37d40d1c808b" alt="image"><span>Onalar va bolalar uchun</span></a>
-            <a href="#"><img src="https://static.uzum.uz/static/promo_images/a266cae1-db3a-4b40-a984-cf9220d9b2e8" alt="image"><span>Arzon narxlar kafolati</span></a>
-            <a href="#"><img src="https://static.uzum.uz/static/promo_images/bd2c8d3a-7488-4b12-84f8-0a816bc4a359" alt="image"><span>Zamonaviy Bozor</span></a>
-            <a href="#"><img src="https://static.uzum.uz/static/promo_images/a98e3eef-162f-47b1-b8d8-f6253393bd95" alt="image"><span>Hafta tovarlari</span></a>
-        </div>
-        </div>
-        <main id="root"></main>
-        <footer></footer>
+        <h2>HTML Tables</h2>
+        <p>In order to learn about HTML tables, we will be constructing a newsletter. In the process, we will be making
+            use of the most common table tags and attributes. We will be creating the newsletter by first creating one
+            table (the pink one) and then nesting it inside of one cell of another table (white).</p>
+        <p>It's a good idea to plan your table before you build it. Our layout specifies not only the contents of the
+            individual cells, but also their widths pixels.</p>
+        <p>Note that CSS is generally used for composing new sites' pages, but there are still numerous pages that use
+            this method for composing layouts - and you may very well be asked to make a minor fix to one. Nesting is
+            also used for CSS, but in a somewhat different manner.</p>
+        <main class="grid">
+            <div class="mic">
+                <h3>Mic.</h3>
+                <h3>Img.</h3>
+                <span>120px w.</span>
+            </div>
+            <div class="newspaper">
+                <h3>Newspaper Title</h3>
+                <span>320px w.</span>
+            </div>
+            <div class="news">
+                <h3>News Img</h3>160px w.
+            </div>
+            <div class="navigation">
+                <h3>Navigation</h3>
+            </div>
+            <div class="headline">
+                <h3>Headline - 480px w.</h3>
+            </div>
+            <div class="photo">
+                <h3>Photo of Moon</h3>
+                <span>320px w.</span>
+            </div>
+            <div class="text">
+                <h3>Text</h3><span>160px w.</span>
+            </div>
+            <div class="caption">
+                <h3>Caption</h3>
+            </div>
+            <div class="text2">
+                <h3>Text</h3><span>160px w.</span>
+            </div>
+            <div class="text3">
+                <h3>Text</h3><span>160px w.</span>
+            </div>
+        </main>
     </div>
-
-    <script type="module" src="./main.js"></script>
+    <footer>© 2011 Dan Vaughan and its licensors. All rights reserved.</footer>
 </body>
 
 </html>
